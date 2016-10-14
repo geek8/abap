@@ -1,4 +1,4 @@
-NITIALIZATION.
+INITIALIZATION.
 " con las siguientes líneas hacemos que el parametro de selección s_fecha tenga puesto por defecto el año en curso"
   concatenate sy-datum(4) '0101' into s_fecha-low.
   concatenate sy-datum(4) '1231' into s_fecha-high.
